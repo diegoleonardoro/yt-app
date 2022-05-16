@@ -6,7 +6,7 @@ import useVideos from "../hooks/useVideos";
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const [videos, search] = useVideos("cars");
+  const [videos, search] = useVideos("travel");
   // search is a function that will make the api query to youtube, and will update a piece of state that is inside of the useVideos custom hook.
   //Every time we run the search function in this component, this component will also be re rendered.
 
